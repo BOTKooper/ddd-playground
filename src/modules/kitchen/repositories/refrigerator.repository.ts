@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { In, Repository } from 'typeorm';
-import { Nullable } from '../../_common/nullable.type';
-import { IRepository } from '../../_common/repository.interface';
+import { Nullable } from '../../../_common/nullable.type';
+import { IRepository } from '../../../_common/repository.interface';
 import { RefrigeratorEntity } from '../entities/refrigerator.entity';
 import { Refrigerator } from '../models/refrigerator.model';
 import { RefrigeratorDaoToDtoTransformer } from '../_transformers/refrigerator.dao-to-dto.transformer';
